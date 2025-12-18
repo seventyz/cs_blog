@@ -1,3 +1,5 @@
+title: Zoi Goebel's Blog
+description: Hello! You found my blog that will document my cyber security projects and what I learn while taking the SANS Cyber Academy classes! (And, maybe some stuff about my life!)
 collections:
   authors:
     output: true
@@ -16,3 +18,4 @@ defaults:
       path: ""
     values:
       layout: "default"
+
