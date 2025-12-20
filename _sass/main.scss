@@ -3,7 +3,7 @@
 body {
     
     background:  url("/assets/images/bg_windows_7.jpg")
-    top center / contain
+    top center / 1920px 1200px
     no-repeat
     fixed
     padding-box
@@ -16,6 +16,10 @@ body {
     content-box;
     color: white;
     font: normal normal normal medium/normal 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
 }
 
 /* Navigation bar */
@@ -71,13 +75,13 @@ footer {
 .main {
     display: flex;
     flex-direction: row;
-    flex: 1 100%;
     justify-content: flex-start;
     gap: 10px;
+    width: 1200px;
 }
 .content {
     display: flex;
     flex-direction: column;
     justify-content: flex-start;
-    height: 80vh;
+    height: 75vh;
 }
